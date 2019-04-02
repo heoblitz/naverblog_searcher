@@ -9,7 +9,7 @@
 
 		else
 		{
-			if($password == "glacecic1!")
+			if($password == "비밀번호 하드코딩")
 			{	
 				header("Location: " . "http://" . $_SERVER['HTTP_HOST'] . "\\testa.php");
 				exit();
