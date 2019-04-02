@@ -13,8 +13,8 @@ def date_search(start_date, end_date, link_data, post_data):
 	return link_match
 
 def blog_searcher(keyword, select):
-	client_id = "3uYyjzKBumZVoshNPDpa" 
-	client_secret = "UhXaYTwDUO"
+	client_id = "클라이언트 id" 
+	client_secret = "클라이언트 키 값" # naver 개발자 홈페이지에서 어플리케이션 등록 후 입력할것!
 	encText = urllib.parse.quote(keyword)
 	url = "https://openapi.naver.com/v1/search/blog?query=" + encText # json 결과
 	url = url + "&display=100&start=1&sort=" + select #sim date 
