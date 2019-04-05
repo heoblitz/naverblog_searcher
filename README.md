@@ -1,11 +1,10 @@
 # naverblog_searcher
-what is naveblog_searcher?
+pypy3 crawler based on selenium
 
-it is like a Search engine using naver search api 
-
-so, you have to register your own api 
-
-
-
-how to use?
+## INSTALL
+- Make sure you have installed these libs already.
+```bash
+pypy3 -m pip install selenium
+pypy3 -m pip install BeautifulSoup4
+```
 
