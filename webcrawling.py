@@ -1,8 +1,9 @@
 from selenium.webdriver.chrome.options import Options 
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import re
 import sys
+import re
+
 
 link_start = "<a href=\""
 link_end = "\" target=\"_blank\">블로그 링크</a>"
@@ -39,12 +40,14 @@ def gets_link(compiled_link):
 	comment_data = soup.find_all('div', class_= 'area_comment pcol2')
 	comment = re.findall('[ ][0-9]+', str(comment_data))
 
+	'''
 	title_data = soup.find_all('span', class_= 'se-fs- se-ff-')
 	try:
 		title_data = title_data[0]
 	except:
 		title_data = "제목을 읽지 못했습니다."
-
+	'''
+	
 	if(comment!=[]):	
 		comment_value = int(comment[0][1:])
 	else:
