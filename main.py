@@ -25,7 +25,7 @@ end_date = sys.argv[3].replace("-","") # 2019-01-03 -> 20190103
 	
 link_date = naverblog.date_search(int(start_date), int(end_date), blog_list, blog_date) # 지정한 날짜에 맞는 블로그 리스트만 리턴
 
-link_list = webcrawling.compile_link(link_date) # webcrawling using selenium
+link_list = webcrawling.compile_link(link_date) # 링크 데이터 크롤링 가능하게 변환 
 pool = Pool(processes=8) # multiprocessing core 8 	
 pool.map(webcrawling.gets_link, link_list) # use multiprocessing Pool
 
