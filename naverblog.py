@@ -21,7 +21,7 @@ def blog_searcher(keyword, select):
 	
 	encText = urllib.parse.quote(keyword)
 	url = "https://openapi.naver.com/v1/search/blog?query=" + encText # json 결과
-	url = url + "&display=100&start=1&sort=" + select #sim date 
+	url = url + "&display=100&start=1&sort=" + select # sim date 
 
 	request = urllib.request.Request(url)
 	request.add_header("X-Naver-Client-Id",client_id)
