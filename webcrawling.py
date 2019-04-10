@@ -4,19 +4,21 @@ from bs4 import BeautifulSoup
 import sys
 import re
 
-
 link_start = "<a href=\""
 link_end = "\" target=\"_blank\">블로그 링크</a>"
 
 visitor_start = "<a href=\"http://blog.naver.com/NVisitorgp4Ajax.nhn?blogId="
 visitor_end = "&amp;logNo=221492203765\" target=\"_blank\">방문자 수</a>"
 
+#headless chrome 사용하는 옵션
 chrome_options = Options()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--headless')
 
+#link를 리스트로 받고 크롤링 후, stdout에 출력해주는 함수
 def gets_link(compiled_link):
+	
 	try:
 		driver = webdriver.Chrome(chrome_options=chrome_options)
 		driver.get(compiled_link)
@@ -67,6 +69,7 @@ def gets_link(compiled_link):
 
 	return 0
 
+#크롤링을 위해 ajax.nhn 호출 링크로 변환
 def compile_link(link):
 	compiled_link = [] 
 	for i in range(0, len(link)):
