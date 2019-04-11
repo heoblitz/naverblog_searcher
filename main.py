@@ -23,9 +23,9 @@ start_time = time.time()
 
 # 검색 키워드
 keyword = sys.argv[1]
-search_option = sys.argv[4]
 start_date = sys.argv[2].replace("-","") 
-end_date = sys.argv[3].replace("-","") 
+end_date = sys.argv[3].replace("-","")
+search_option = sys.argv[4]
 
 # 네이버 api 파싱 후 블로그 링크, 날짜 데이터 리스트로 리턴
 (blog_list, blog_date) = naverblog.blog_searcher(keyword, search_option) 
