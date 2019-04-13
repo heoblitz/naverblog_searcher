@@ -33,7 +33,7 @@ search_option = sys.argv[4]
 # 지정한 날짜에 맞는 블로그 리스트만 리턴
 link_date = naverblog.date_search(int(start_date), int(end_date), blog_list, blog_date)
 
-# 링크 데이터 크롤링 가능하게 변환 
+# 링크 데이터 크롤링 가능하게 ajax 링크로 변환
 link_list = webcrawling.compile_link(link_date) 
 
 # 멀티프로세싱으로 크롤링 함수 실행 (process=8)
