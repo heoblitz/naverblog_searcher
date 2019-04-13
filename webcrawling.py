@@ -9,7 +9,6 @@ import re
 # html <a> 태그로 묶기 위한 문자열 
 link_start = "<a href=\""
 link_end = "\" target=\"_blank\">블로그 링크</a>"
-
 visitor_start = "<a href=\"http://blog.naver.com/NVisitorgp4Ajax.nhn?blogId="
 visitor_end = "&amp;logNo=221492203765\" target=\"_blank\">방문자 수</a>"
 
