@@ -49,21 +49,23 @@ def gets_link(compiled_link):
 	else:
 		like_value = 0
 
+	# html data 에서 댓글 수 파싱
 	comment_data = soup.find_all('div', class_= 'area_comment pcol2')
 	comment = re.findall('[ ][0-9]+', str(comment_data))
+	
+	if(comment!=[]):	
+		comment_value = int(comment[0][1:])
+	else:
+		comment_value = 0
 
 	'''
+	# 제목 파싱하는 구문 주석 처리
 	title_data = soup.find_all('span', class_= 'se-fs- se-ff-')
 	try:
 		title_data = title_data[0]
 	except:
 		title_data = "제목을 읽지 못했습니다."
 	'''
-	
-	if(comment!=[]):	
-		comment_value = int(comment[0][1:])
-	else:
-		comment_value = 0
 
 	# 최소 조건으로 공감과 댓글 수 의 합이 1 이상만 출력함
 	if(like_value+comment_value):
