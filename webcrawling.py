@@ -80,7 +80,7 @@ def gets_link(compiled_link):
 
 	return 0
 
-# 크롤링을 위해 ajax.nhn 호출 링크로 변환
+# 크롤링을 위해 PostView.nhn 링크로 변환
 def compile_link(link):
 	compiled_link = [] 
 	for i in range(0, len(link)):
