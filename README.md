@@ -1,10 +1,10 @@
 # naverblog_searcher  
 crawler tool on web service
 
-backend: PHP, Python3(PyPy3)  
+* backend: PHP, Python3(PyPy3)  
 pypy3 crawler based on selenium  
   
-frontend: bootstrapk
+* frontend: bootstrapk
 
 
 ## INSTALL 
