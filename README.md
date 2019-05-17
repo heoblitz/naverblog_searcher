@@ -1,7 +1,7 @@
 # naverblog_searcher  
 crawler tool on web service
 
-![Alt Text](https://thumbs.gfycat.com/ClumsyMediumElephantbeetle.webp)
+![Alt Text](image.gif)
 
 * backend: PHP, Python3(PyPy3)  
   * pypy3 crawler based on selenium  
