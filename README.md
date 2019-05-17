@@ -19,4 +19,3 @@ https://pypy.org/download.html
 pypy3 -m pip install selenium
 pypy3 -m pip install BeautifulSoup4
 ```
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
