@@ -1,5 +1,5 @@
 # naverblog_searcher  
-crawler tool on web service
+Search <a href="https://section.blog.naver.com/BlogHome.nhn">naver blog</a> posts using web service crawler.
 
 ![Alt Text](image.gif)
 
@@ -19,3 +19,5 @@ https://pypy.org/download.html
 pypy3 -m pip install selenium
 pypy3 -m pip install BeautifulSoup4
 ```
+* Download the headless chrome compatible on your server.
+http://chromedriver.chromium.org/
