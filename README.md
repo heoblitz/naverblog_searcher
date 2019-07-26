@@ -20,4 +20,4 @@ pypy3 -m pip install selenium
 pypy3 -m pip install BeautifulSoup4
 ```
 * Download the headless chrome compatible on your server.   
-http://chromedriver.chromium.org/
+https://chromedriver.chromium.org/
