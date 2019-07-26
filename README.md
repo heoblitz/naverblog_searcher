@@ -1,5 +1,5 @@
 # naverblog_searcher  
-Search <a href="https://section.blog.naver.com/BlogHome.nhn">naver blog</a> posts using web service crawler.
+Search <a href="https://section.blog.naver.com/BlogHome.nhn" target="_blank">naver blog</a> posts using web service crawler.
 
 ![Alt Text](image.gif)
 
