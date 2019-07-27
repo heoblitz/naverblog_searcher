@@ -3,7 +3,7 @@ Search <a href="https://section.blog.naver.com/BlogHome.nhn" target="_blank">nav
 
 ![Alt Text](image.gif)
 
-* backend: PHP, Python3(PyPy3)  
+* backend: PHP, Python3(PyPy3)
   * pypy3 crawler based on selenium  
   
 * frontend: bootstrapk
