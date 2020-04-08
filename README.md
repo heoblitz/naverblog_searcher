@@ -1,5 +1,5 @@
 # naverblog_searcher  
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/wone2287/naverblog_searcher/blob/master/LICENSE)
    
 Search <a href="https://section.blog.naver.com/BlogHome.nhn" target="_blank">naver blog</a> posts using web service crawler.
 
