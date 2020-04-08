@@ -2,12 +2,12 @@
 Search <a href="https://section.blog.naver.com/BlogHome.nhn" target="_blank">naver blog</a> posts using web service crawler.
 
 ![Alt Text](image.gif)
+- [License](#license)
 
 * backend: PHP, Python3(PyPy3)
   * pypy3 crawler based on selenium  
   
 * frontend: bootstrapk
-
 
 ## INSTALL 
 * Built any web server support PHP (ex nginx-php, apache-php)  
